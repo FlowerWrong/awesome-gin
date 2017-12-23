@@ -10,5 +10,6 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 
 ## HTML Templates
 
-* [html/template](https://golang.org/pkg/html/template/) Gin default HTML template
-* [robvdl/pongo2gin](https://github.com/robvdl/pongo2gin) Pongo2gin is a template renderer that can be used with the [Gin web framework](https://github.com/gin-gonic/gin) it uses the [Pongo2 template library](https://github.com/flosch/pongo2)
+* [html/template](https://golang.org/pkg/html/template/) Gin's default HTML template
+* [robvdl/pongo2gin](https://github.com/robvdl/pongo2gin) Gin's [pongo2](https://github.com/flosch/pongo2) HTML template plugin, if you like django, you will it also
+* [FlowerWrong/plushgin](https://github.com/FlowerWrong/plushgin) Gin's [plush](https://github.com/gobuffalo/plush) HTML template plugin, if you like erb, you will it also
