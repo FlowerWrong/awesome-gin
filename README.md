@@ -17,6 +17,9 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [gin-contrib/secure](https://github.com/gin-contrib/secure) Gin's secure middleware
 * [swaggo/gin-swagger](https://github.com/swaggo/gin-swagger) Gin's middleware to automatically generate RESTful API documentation with Swagger 2.0
 * [appleboy/gin-status-api](https://github.com/appleboy/gin-status-api) Gin's middleware for golang cpu, memory, gc, etc information api handler
+* [fatihkahveci/gin-inspector](https://github.com/fatihkahveci/gin-inspector) Gin's middleware for investigating http request.
+
+
 
 ## HTML Templates
 
