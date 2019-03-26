@@ -7,9 +7,12 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [gin-contrib/cors](https://github.com/gin-contrib/cors) Gin's CORS middleware
 * [gin-contrib/pprof](https://github.com/gin-contrib/pprof) Gin's pprof middleware
 * [ulule/limiter](https://github.com/ulule/limiter/tree/master/examples/gin) Gin's rate limit middleware
+* [aviddiviner/gin-limit](https://github.com/aviddiviner/gin-limit) Stay under the limit with this handy Gin middleware.
+* [imtoori/gin-redis-ip-limiter](https://github.com/imtoori/gin-redis-ip-limiter) Simple gin middleware ip limiter
 * [gin-contrib/cache](https://github.com/gin-contrib/cache) Gin's page cache middleware
 * [gin-contrib/multitemplate](https://github.com/gin-contrib/multitemplate) Gin's custom HTML render to support multi templates
 * [appleboy/gin-jwt](https://github.com/appleboy/gin-jwt) Gin's jwt middleware
+* [gin-contrib/authz](https://github.com/gin-contrib/authz) Authz is an authorization middleware for Gin, it's based on https://github.com/casbin/casbin.
 * [gin-contrib/gzip](https://github.com/gin-contrib/gzip) Gin's gzip middleware
 * [gin-contrib/sentry](https://github.com/gin-contrib/sentry) Middleware to integrate with [sentry](https://getsentry.com/) crash reporting
 * [gin-contrib/sessions](https://github.com/gin-contrib/sessions) Gin's middleware for session management with multi-backend support (currently cookie, Redis, Memcached, MongoDB)
@@ -17,6 +20,11 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [gin-contrib/secure](https://github.com/gin-contrib/secure) Gin's secure middleware
 * [swaggo/gin-swagger](https://github.com/swaggo/gin-swagger) Gin's middleware to automatically generate RESTful API documentation with Swagger 2.0
 * [appleboy/gin-status-api](https://github.com/appleboy/gin-status-api) Gin's middleware for golang cpu, memory, gc, etc information api handler
+* [gin-contrib/location](https://github.com/gin-contrib/location) Gin's middleware to expose the server's hostname and scheme
+
+## Log
+
+* [Bose/go-gin-logrus](https://github.com/Bose/go-gin-logrus) Gin Web Framework for using Logrus as the Gin logger with Tracing middleware
 
 ## HTML Templates
 
@@ -34,6 +42,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 ## metrics
 
 * [zsais/go-gin-prometheus](https://github.com/zsais/go-gin-prometheus) Gin Web Framework Prometheus metrics exporter
+* [szuecs/gin-gomonitor](https://github.com/szuecs/gin-gomonitor) Gin middleware for monitoring
 
 ## Gin project in real world
 
@@ -44,7 +53,12 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 
 ## Framework based on gin
 
-* [go-ego/ego](https://github.com/go-ego/ego) a full-stack web framework written in Go, lightweight and efficient front-end component solutions, based on gin. The front-end is compiled, does not affect the back-end.
+* [go-ego/ego](https://github.com/go-ego/ego) A full-stack web framework written in Go, lightweight and efficient front-end component solutions, based on gin. The front-end is compiled, does not affect the back-end.
+* [LyricTian/gin-admin](https://github.com/LyricTian/gin-admin) RBAC scaffolding based on Gin + Casbin + Ant Design React
+* [chenhg5/morningo](https://github.com/chenhg5/morningo) A Web develop project skeleton base on Gin
+* [vsouza/go-gin-boilerplate](https://github.com/vsouza/go-gin-boilerplate) A starter project with Golang, Gin and DynamoDB
+* [ribice/gorsk-gin](https://github.com/ribice/gorsk-gin) Idiomatic Golang Restful Starter Kit using Gin
+* [xiaobopang/go_init](https://github.com/xiaobopang/go_init) Scaffolding based on gin, goredis, gorm, websocket, rabbitmq
 
 ## Generator
 
