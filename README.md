@@ -23,6 +23,8 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [gin-contrib/location](https://github.com/gin-contrib/location) Gin's middleware to expose the server's hostname and scheme
 * [fatihkahveci/gin-inspector](https://github.com/fatihkahveci/gin-inspector) Gin's middleware for investigating http request.
 * [gin-contrib/zap](https://github.com/gin-contrib/zap) Alternative logging through uber-go/zap
+* [semihalev/gin-stats](https://github.com/semihalev/gin-stats) Gin's middleware for request stats
+
 ## Log
 
 * [Bose/go-gin-logrus](https://github.com/Bose/go-gin-logrus) Gin Web Framework for using Logrus as the Gin logger with Tracing middleware
