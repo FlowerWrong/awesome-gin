@@ -22,7 +22,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [appleboy/gin-status-api](https://github.com/appleboy/gin-status-api) Gin's middleware for golang cpu, memory, gc, etc information api handler
 * [gin-contrib/location](https://github.com/gin-contrib/location) Gin's middleware to expose the server's hostname and scheme
 * [fatihkahveci/gin-inspector](https://github.com/fatihkahveci/gin-inspector) Gin's middleware for investigating http request.
-
+* [gin-contrib/zap](https://github.com/gin-contrib/zap) Alternative logging through uber-go/zap
 ## Log
 
 * [Bose/go-gin-logrus](https://github.com/Bose/go-gin-logrus) Gin Web Framework for using Logrus as the Gin logger with Tracing middleware
@@ -52,6 +52,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [b3log/pipe](https://github.com/b3log/pipe) A small and beautiful blogging platform, [demo](http://pipe.b3log.org/)
 * [TeaMeow/KitSvc](https://github.com/TeaMeow/KitSvc) Microservice framework based on gin, consul, prometheus, eventStore, gorm and NSQ
 * [mooncreeks/godemo](https://github.com/mooncreeks/godemo)Go web application demo with gin-gonic,redigo
+* [gin-gonic/examples](https://github.com/gin-gonic/examples) A repository to host examples and tutorials for Gin. https://gin-gonic.com/docs/
 
 ## Framework based on gin
 
