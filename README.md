@@ -51,6 +51,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [wangsongyan/wblog](https://github.com/wangsongyan/wblog) Blog based on gin and gorm
 * [b3log/pipe](https://github.com/b3log/pipe) A small and beautiful blogging platform, [demo](http://pipe.b3log.org/)
 * [TeaMeow/KitSvc](https://github.com/TeaMeow/KitSvc) Microservice framework based on gin, consul, prometheus, eventStore, gorm and NSQ
+* [mooncreeks/godemo](https://github.com/mooncreeks/godemo)Go web application demo with gin-gonic,redigo
 
 ## Framework based on gin
 
