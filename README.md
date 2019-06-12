@@ -22,6 +22,8 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [appleboy/gin-status-api](https://github.com/appleboy/gin-status-api) Gin's middleware for golang cpu, memory, gc, etc information api handler
 * [gin-contrib/location](https://github.com/gin-contrib/location) Gin's middleware to expose the server's hostname and scheme
 * [fatihkahveci/gin-inspector](https://github.com/fatihkahveci/gin-inspector) Gin's middleware for investigating http request.
+* [gin-contrib/zap](https://github.com/gin-contrib/zap) Alternative logging through uber-go/zap
+* [semihalev/gin-stats](https://github.com/semihalev/gin-stats) Gin's middleware for request stats
 
 ## Log
 
@@ -51,7 +53,11 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [wangsongyan/wblog](https://github.com/wangsongyan/wblog) Blog based on gin and gorm
 * [b3log/pipe](https://github.com/b3log/pipe) A small and beautiful blogging platform, [demo](http://pipe.b3log.org/)
 * [TeaMeow/KitSvc](https://github.com/TeaMeow/KitSvc) Microservice framework based on gin, consul, prometheus, eventStore, gorm and NSQ
-
+* [mooncreeks/godemo](https://github.com/mooncreeks/godemo)Go web application demo with gin-gonic,redigo
+* [gin-gonic/examples](https://github.com/gin-gonic/examples) A repository to host examples and tutorials for Gin. https://gin-gonic.com/docs/
+* [appleboy/gorush](https://github.com/appleboy/gorush) A push notification server written in Go
+* [ErikJiang/market_monitor](https://github.com/ErikJiang/market_monitor)  go starter kit with(gin,redigo,gorm,zerolog,cron,viper,jwt-go,swaggo)
+* [go-web-applications-and-microservices-using-gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)building-go-web-applications-and-microservices-using-gin
 ## Framework based on gin
 
 * [go-ego/ego](https://github.com/go-ego/ego) A full-stack web framework written in Go, lightweight and efficient front-end component solutions, based on gin. The front-end is compiled, does not affect the back-end.
@@ -64,3 +70,8 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 ## Generator
 
 * [dcu/gin-scaffold](https://github.com/dcu/gin-scaffold) Gin scaffold is CLI to generate scaffolds for the gin gonic framework.
+## Project layout
+ https://medium.com/wtf-dial/wtf-dial-domain-model-9655cd523182
+
+  Application design is a hard problem. There are so many design decisions to make and without a set of solid principles to guide you the problem is made even worse. We’ve looked at several current approaches to Go application design and we’ve seen many of their flaws.
+  I believe approaching design from the standpoint of dependencies makes code organization simpler and easier to reason about. First we design our domain language. Then we isolate our dependencies. Next we introduce mocks to isolate our tests. Finally, we tie everything together within our main package.
