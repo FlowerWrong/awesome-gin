@@ -68,3 +68,13 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 ## Generator
 
 * [dcu/gin-scaffold](https://github.com/dcu/gin-scaffold) Gin scaffold is CLI to generate scaffolds for the gin gonic framework.
+## Project layout
+ https://medium.com/wtf-dial/wtf-dial-domain-model-9655cd523182
+ myapp/
+  cmd/
+    myapp/
+      main.go
+    myappctl/
+      main.go
+  Application design is a hard problem. There are so many design decisions to make and without a set of solid principles to guide you the problem is made even worse. We’ve looked at several current approaches to Go application design and we’ve seen many of their flaws.
+  I believe approaching design from the standpoint of dependencies makes code organization simpler and easier to reason about. First we design our domain language. Then we isolate our dependencies. Next we introduce mocks to isolate our tests. Finally, we tie everything together within our main package.
