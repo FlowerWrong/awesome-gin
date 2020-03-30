@@ -31,9 +31,9 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 
 ## HTML Templates
 
-* [foolin/gin-template](https://github.com/foolin/gin-template) :fire: Golang template for gin framework with layout, cache, partial, multiple templates support.
+* [foolin/goview](https://github.com/foolin/goview) Goview is a lightweight, minimalist and idiomatic template library based on golang html/template for building Go web application. Supports ginview, echoview and gorice.
+* [foolin/gin-template](https://github.com/foolin/gin-template) :fire: (Deprecated) Golang template for gin framework with layout, cache, partial, multiple templates support.
 * [html/template](https://golang.org/pkg/html/template/) Gin's default HTML template
-* [foolin/gin-template](https://github.com/foolin/gin-template) html/template syntax + layout + include + cache + reload support
 * [robvdl/pongo2gin](https://github.com/robvdl/pongo2gin) Gin's [pongo2](https://github.com/flosch/pongo2) HTML template plugin, if you like django, you will like it also
 * [FlowerWrong/plushgin](https://github.com/FlowerWrong/plushgin) Gin's [plush](https://github.com/gobuffalo/plush) HTML template plugin, if you like erb, you will like it also
 
