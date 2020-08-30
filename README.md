@@ -28,6 +28,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 
 * [Bose/go-gin-logrus](https://github.com/Bose/go-gin-logrus) Gin Web Framework for using Logrus as the Gin logger with Tracing middleware
 * [gin-contrib/zap](https://github.com/gin-contrib/zap) Alternative logging through uber-go/zap
+* [axiaoxin-com/logging](https://github.com/axiaoxin-com/logging#gin-middleware-ginlogger) GinLogger uses zap to log detailed access logs in JSON or text format with trace id, supports flexible and rich configuration, and supports automatic reporting of log events above error level to sentry.
 
 ## HTML Templates
 
@@ -70,6 +71,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [vsouza/go-gin-boilerplate](https://github.com/vsouza/go-gin-boilerplate) A starter project with Golang, Gin and DynamoDB
 * [ribice/gorsk-gin](https://github.com/ribice/gorsk-gin) Idiomatic Golang Restful Starter Kit using Gin
 * [xiaobopang/go_init](https://github.com/xiaobopang/go_init) Scaffolding based on gin, goredis, gorm, websocket, rabbitmq
+* [axiaoxin-com/pink-lady](https://github.com/axiaoxin-com/pink-lady) Pinklady is a template project of gin app, which encapsulates mysql, redis, logging, viper, swagger, middlewares and other common components.
 
 ## Generator
 
