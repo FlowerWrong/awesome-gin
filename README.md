@@ -23,6 +23,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [gin-contrib/location](https://github.com/gin-contrib/location) Gin's middleware to expose the server's hostname and scheme
 * [fatihkahveci/gin-inspector](https://github.com/fatihkahveci/gin-inspector) Gin's middleware for investigating http request.
 * [yasaricli/gah](https://github.com/yasaricli/gah) Gin's authentication handlers.
+* [axiaoxin-com/ratelimiter](https://github.com/axiaoxin-com/ratelimiter) gin's middleware for token bucket ratelimiter.
 
 ## Log
 
