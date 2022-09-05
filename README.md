@@ -25,6 +25,7 @@ Gin is a HTTP web framework written in Go (Golang). It features a Martini-like A
 * [yasaricli/gah](https://github.com/yasaricli/gah) Gin's authentication handlers.
 * [axiaoxin-com/ratelimiter](https://github.com/axiaoxin-com/ratelimiter) gin's middleware for token bucket ratelimiter.
 * [joffref/opa-middleware](https://github.com/Joffref/opa-middleware) - Provides a Gin's OPA middleware.
+* [darkweak/souin]([https://github.com/darkweak/souin#](https://github.com/darkweak/souin#gin-middleware)) - HTTP cache middleware, RFC-7234 compliant with the `Cache-Status` header support and many other cool features.
 
 ## Log
 
